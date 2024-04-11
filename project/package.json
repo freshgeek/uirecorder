@@ -16,7 +16,7 @@
   "devDependencies": {
   },
   "scripts": {
-    "installdriver": "selenium-standalone install --drivers.firefox.baseURL=http://npm.taobao.org/mirrors/geckodriver --baseURL=http://npm.taobao.org/mirrors/selenium --drivers.chrome.baseURL=http://npm.taobao.org/mirrors/chromedriver --drivers.ie.baseURL=http://npm.taobao.org/mirrors/selenium",
+    "installdriver": "selenium-standalone install --drivers.firefox.baseURL=https://registry.npmmirror.com/geckodriver --baseURL=https://registry.npmmirror.com/selenium --drivers.chrome.baseURL=https://registry.npmmirror.com/chromedriver --drivers.ie.baseURL=https://registry.npmmirror.com/selenium",
     "server": "selenium-standalone start",
     "test": "mocha \"!(node_modules)/**/*.spec.js\" --reporter macaca-reporter --reporter-options reportJSONFilename=index,processAlwaysExitWithZero=true --bail",
     "singletest": "mocha --reporter macaca-reporter --reporter-options reportJSONFilename=index,processAlwaysExitWithZero=true --bail",
